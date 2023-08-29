@@ -10,6 +10,7 @@
 	uart2_default: uart2_default {
 		group1 {
 			pinmux = <UART2TX_P54>;
+			drive-strength = "0.5";
 		};
 		group2 {
 			pinmux = <UART2RX_P11>;

@@ -6,7 +6,7 @@ choice
 	prompt "Ambiq Apollo4X Selection"
 	depends on SOC_SERIES_APOLLO4X
 
-config SOC_APOLLO4P
-	bool "Apollo4P"
+config SOC_APOLLO4L
+	bool "Apollo4L"
 
 endchoice

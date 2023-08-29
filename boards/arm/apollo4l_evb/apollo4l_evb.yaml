@@ -1,5 +1,5 @@
-identifier: apollo4p_evb
-name: Apollo4P EVB
+identifier: apollo4l_evb
+name: apollo4l EVB
 type: mcu
 arch: arm
 ram: 2816

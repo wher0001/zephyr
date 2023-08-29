@@ -2,7 +2,7 @@
 #
 # Copyright (c) 2023 Antmicro <www.antmicro.com>
 
-if SOC_APOLLO4P
+if SOC_APOLLO4L
 
 config NUM_IRQS
 	default 83
@@ -15,4 +15,4 @@ config SRAM_NC_SIZE
 config SRAM_NC_BASE_ADDRESS
 	default $(dt_node_reg_addr_hex,$(DT_NODE_SRAM),1)
 
-endif # SOC_APOLLO4P
+endif # SOC_APOLLO4L

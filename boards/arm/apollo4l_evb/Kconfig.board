@@ -2,6 +2,6 @@
 #
 # Copyright (c) 2023 Antmicro <www.antmicro.com>
 
-config BOARD_APOLLO4P_EVB
+config BOARD_APOLLO4L_EVB
 	bool "Ambiq Apollo4 Plus Evaluation Board"
-	depends on SOC_APOLLO4P
+	depends on SOC_APOLLO4L

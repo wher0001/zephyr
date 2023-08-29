@@ -7,12 +7,12 @@
 #include <dt-bindings/pinctrl/ambiq-apollo4-pinctrl.h>
 
 &pinctrl {
-	uart0_default: uart0_default {
+	uart2_default: uart2_default {
 		group1 {
-			pinmux = <UART0TX_P60>;
+			pinmux = <UART2TX_P54>;
 		};
 		group2 {
-			pinmux = <UART0RX_P47>;
+			pinmux = <UART2RX_P11>;
 			input-enable;
 		};
 	};
